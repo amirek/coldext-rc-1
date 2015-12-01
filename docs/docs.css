@@ -1,0 +1,35 @@
+/* index */
+body h1 { font-family: Verdana; font-size: 23px; padding: 0.4em 0 0.3em 0; }
+body h2 { font-family: Verdana; font-size: 18px; padding: 0.4em 0 0.3em 0; }
+
+.content { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
+.content p { padding: 8px 0; }
+.content ul, .content ol {  padding-left: 30px; }
+.content ul li { list-style: disc; }
+.content ol li { list-style: decimal; }
+.content strong { font-weight: bold; }
+
+/* fix required for quicktips to render correctly in IE7 */
+.ext-ie .x-tip { width: 100%; }
+
+/* docs icons */
+.icon-docs { background-image: url(images/docs.gif) !important; }
+.icon-fav { background-image: url(images/fav.gif) !important; }
+.icon-leaf { background-image: url(images/leaf.gif) !important; }
+.icon-source { background-image: url(images/cf_editor.gif) !important; }
+.icon-refresh { background-image: url(images/table_refresh.png) !important; }
+
+/* dpSyntaxHighligher override */
+body .dp-highlighter
+{
+	overflow: visible !important;
+	margin: 0 !important;
+	width: auto;
+}
+body .dp-highlighter li span {
+	white-space: nowrap;
+}
+
+/* toolbars */
+.demoToolbar { }
+.output { padding: 15px; }
